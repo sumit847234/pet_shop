@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    color: #000;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a:active {
+    color: orangered;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header CSS */
+
+header.site_header {
+    background: #ff9900;
+    padding: 3rem 0 0;
+}
+
+.header-area {
+    max-width: 68%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-left, .header-right {
+    width: 50%;
+}
+
+.header-right ul.navigation-bar {
+    display: flex;
+    /* align-items: baseline; */
+}
+
+.header-right ul.navigation-bar li a{
+    padding: 1rem;
+}
+
+
+.header-left{
+    /* padding-top: 1rem; */
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: -68px;
+}
+
+.navigation-bar{
+    margin-top: 1rem;
+}
+
+.hero-section{
+    padding: 4rem 0 0 0;
+}
+
+.pet-slogan-cards {
+    max-width: 63%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-top {
+    background-color: #f8f3e9;
+    padding: 1rem 0;
+}
+
+.about-pets {
+    max-width: 63%;
+    margin: 0 auto;
+}
+
+.about-pets {
+    display: flex;
+}
+
+.footer-middel {
+    background-color: #310000;
+}
+
+.about-pets-card {
+    position: relative;
+}
+
+.about-pets-info {
+    position: absolute;
+    top: 89px;
+    padding: 10px;
+}
+
+h5.about-card-heading {
+    color: #BFFB05;
+}
+
+p.about-card-pera {
+    color: #fff;
+}
+
+.footer-bottam {
+    background-color: #ffad00;
+}
+
+.footer-bottam h6{
+    color: #000;
+    padding: 1rem;
+    text-align: center;
+}
